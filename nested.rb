@@ -21,19 +21,18 @@ p people[4][0]
 # What do you get when you run the following code? Why?
 p people[6] #=> nil
 
-# Run the following code, what do you observe? In particular,
-# what is the data type of row?
+
 people.each do |row|
   p row
 end
 
-# Run the following code, what do you observe?
+
 people.each do |row|
   p row[0], row[1], row[2]
   puts "================="
 end
 
-# Run the following code, what do you observe?
+
 people.each do |row|
   row.each do |element|
     p element
@@ -41,7 +40,7 @@ people.each do |row|
   end
 end
 
-# Run the following code, what do you observe?
+
 people.each.with_index do |row, index|
   p index, row
 end
