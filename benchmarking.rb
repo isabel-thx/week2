@@ -1,7 +1,7 @@
 def benchmark
   start_time = Time.now
   yield
-	end_time = Time.now
+  end_time = Time.now
   return running_time = end_time - start_time
 end
 
