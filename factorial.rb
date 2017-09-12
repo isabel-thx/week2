@@ -8,9 +8,9 @@ end
 p factorial_iterative(9) == 362880
 
 
-# Implement a recursive version of the factorial function
+
 def factorial_recursive(n)
-	if n == 0
+  if n == 0
     return 1
   else
     return n * factorial_recursive(n - 1)
