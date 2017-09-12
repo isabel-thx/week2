@@ -1,4 +1,4 @@
-# Example 2: Nested Arrays
+# Example: Nested Arrays
 people = 
   [ [1, "Kevin", true],
     [2, "Aiman", false],
