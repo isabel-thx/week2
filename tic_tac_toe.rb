@@ -1,23 +1,4 @@
-# generates a tic tac toe array with the right ratio of 'x' and 'o'
-def generate_realistic_tic_tac_toe
-	sample_board = [
-									["x","x","x","x","o","o","o","o","o"],
-									["x","x","x","x","x","o","o","o","o"]
-								]
-
-	board = sample_board.sample.shuffle
-
-	puts "#{board[0]}|#{board[1]}|#{board[2]}"
-	puts "#{board[3]}|#{board[4]}|#{board[5]}"
-	puts "#{board[6]}|#{board[7]}|#{board[8]}"
-
-end
-
-generate_realistic_tic_tac_toe
-
-
-
-
+# generates a tic tac toe array with the right ratio of 'x's and 'o's
 
 def generate_realistic_tic_tac_toe2(n)
 	
@@ -36,7 +17,3 @@ def generate_realistic_tic_tac_toe2(n)
 end
 
 generate_realistic_tic_tac_toe2(10)
-
-
-
-#tic_tac_toe = Array.new(3, Array.new(3, input.sample))
