@@ -1,6 +1,6 @@
 # generates a tic tac toe array with the right ratio of 'x's and 'o's
 
-def generate_realistic_tic_tac_toe2(n)
+def tic_tac_toe(n)
 	
 	for i in 1..n
 	
@@ -16,4 +16,4 @@ def generate_realistic_tic_tac_toe2(n)
 	end
 end
 
-generate_realistic_tic_tac_toe2(10)
+tic_tac_toe(10)
