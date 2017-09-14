@@ -9,9 +9,9 @@ def tic_tac_toe(n)
 	array = total.each_slice(3).to_a
 
 	puts "board #{i}"
-	puts "#{array[0][0]}|#{array[0][1]}|#{array[0][2]}"
-	puts "#{array[1][0]}|#{array[1][1]}|#{array[1][2]}"
-	puts "#{array[2][0]}|#{array[2][1]}|#{array[2][2]}"
+	puts "#{array[0][0]} | #{array[0][1]} | #{array[0][2]}"
+	puts "#{array[1][0]} | #{array[1][1]} | #{array[1][2]}"
+	puts "#{array[2][0]} | #{array[2][1]} | #{array[2][2]}"
 	
 	end
 end
