@@ -14,5 +14,4 @@ def tic_tac_toe(n)
 	
 	end
 end
-
 tic_tac_toe(10)
