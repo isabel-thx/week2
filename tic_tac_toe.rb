@@ -14,7 +14,7 @@ def tic_tac_toe(n)
 	puts "#{array[2][0]} | #{array[2][1]} | #{array[2][2]}"
 	
 	end
-  
+
 end
 
 tic_tac_toe(10)
