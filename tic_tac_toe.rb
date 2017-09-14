@@ -2,7 +2,7 @@
 
 def tic_tac_toe(n)
 	
-	for i in 1..n
+  for i in 1..n
 	
 	input = ["x", "o"]
 	total = (["x"] * 4 + ["o"] * 4 + [input.sample]).shuffle
@@ -14,6 +14,7 @@ def tic_tac_toe(n)
 	puts "#{array[2][0]} | #{array[2][1]} | #{array[2][2]}"
 	
 	end
+  
 end
 
 tic_tac_toe(10)
